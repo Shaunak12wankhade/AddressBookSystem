@@ -20,3 +20,14 @@ Phonenum bigint,
 EmailId varchar(100)
 );
 select * from AddressBookTable;
+
+--UC3--
+---Insert data in table---
+
+INSERT INTO AddressBookTable VALUES('Ashish','singh','shashtri chowk','wardha','Maharashtra',442001,7507123464,'ashsingh@gmail.com'),
+('Abhi','sawarkar','Gond Nagar','Wardha','Maharashtra',442001,8976324153,'abhisawarkar@gmail.com'),
+('Ani','Kumar','Ram Nagar','Wardha','Maharashtra',442001,9878342169,'anikumar@gmail.com'),
+('Sagar','panth','Sahayog Nagar','Nagpur','Maharashtra',450213,9637449858,'sagarpanth@gmail.com');
+
+
+select * from AddressBookTable;
