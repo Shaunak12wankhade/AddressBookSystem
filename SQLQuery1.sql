@@ -44,3 +44,10 @@ UPDATE AddressBookTable SET EmailId='Kumar12@gmail.com' WHERE LastName='Kumar';
 
 select * from AddressBookTable;
 
+
+--UC5--
+---Delete contact using person name---
+
+DELETE FROM AddressBookTable WHERE FirstName='Abhi';
+
+select * from AddressBookTable;
