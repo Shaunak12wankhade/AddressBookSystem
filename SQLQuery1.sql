@@ -63,3 +63,7 @@ SELECT * FROM AddressBookTable WHERE  City='Nagpur' or StateName='Maharashtra';
 
 SELECT COUNT(City) AS Size,City,StateName FROM AddressBookTable GROUP BY StateName,City;
 
+--UC8--
+---Retrieve enteries sorted alphabetically by person's name---
+
+SELECT FirstName FROM AddressBookTable WHERE City='Wardha' ORDER BY FirstName;
