@@ -31,3 +31,16 @@ INSERT INTO AddressBookTable VALUES('Ashish','singh','shashtri chowk','wardha','
 
 
 select * from AddressBookTable;
+
+
+
+--UC4--
+---Edit existing contact using name---
+
+UPDATE AddressBookTable SET Phonenum=9745638984 WHERE FirstName='Ashish';
+UPDATE AddressBookTable SET LastName='Maske' WHERE FirstName='Sagar';
+UPDATE AddressBookTable SET EmailId='Kumar12@gmail.com' WHERE LastName='Kumar';
+
+
+select * from AddressBookTable;
+
