@@ -58,3 +58,8 @@ select * from AddressBookTable;
 
 SELECT * FROM AddressBookTable WHERE  City='Nagpur' or StateName='Maharashtra';
 
+--UC7--
+---Size or count by city and state---
+
+SELECT COUNT(City) AS Size,City,StateName FROM AddressBookTable GROUP BY StateName,City;
+
