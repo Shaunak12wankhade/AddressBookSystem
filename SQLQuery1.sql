@@ -51,3 +51,10 @@ select * from AddressBookTable;
 DELETE FROM AddressBookTable WHERE FirstName='Abhi';
 
 select * from AddressBookTable;
+
+
+--UC6--
+---Retrieve person belonging to city or state---
+
+SELECT * FROM AddressBookTable WHERE  City='Nagpur' or StateName='Maharashtra';
+
